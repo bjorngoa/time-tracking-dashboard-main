@@ -232,5 +232,6 @@ button:hover {
         margin-top: 10px;
         background-color: hsl(246, 80%, 20%);
         margin-bottom: 10px;
+        display: initial;
     }
 }
