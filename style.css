@@ -83,30 +83,30 @@ button {
 
 /* Play */
 .element1{
-    background-image: url(./images/icon-play.svg);
+    background-image: url(images/icon-play.svg);
     
 }
 
 /* Study */
 .element2{
 
-    background-image: url(/images/icon-study.svg);
+    background-image: url(images/icon-study.svg);
 }
 
 /* Exercise */
 .element3 {
-    background-image: url(/images/icon-exercise.svg);
+    background-image: url(images/icon-exercise.svg);
 }
 
 /* Social */
 .element4 {
-    background-image: url(/images/icon-social.svg);
+    background-image: url(images/icon-social.svg);
     background-position: right 10% top -25%;
 }
 
 /* Self Care */
 .element5 {
-    background-image: url(/images/icon-self-care.svg);
+    background-image: url(images/icon-self-care.svg);
 }
 
 .element__container{
