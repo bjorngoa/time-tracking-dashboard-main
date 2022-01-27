@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card card-one">
+    
+    <div class="card-one-top">
+      <img class="card-one-image" src="images/image-jeremy.png" alt="">
+      <p><span class="small-text-card-one">Report for</span><br>Jeremy Robson</p>
+    </div>
+    <div class="card-one-bottom">
+      <button id="daily-btn"><p class="filter">Daily</p></button>
+      
+      <button><p class="filter">Weekly</p></button>
+      <button><p class="filter">Monthly</p></button>
+    </div>
+  </div>
+    
+  
+  <!-- Work -->
+  <div class="work main element">
+    <div class="element__container">
+      Work 
+        <div data-activity="Work" class="current element__time">
+          <div class="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+         <div id="work" class="hours">32hrs</div>
+          <div id="lastWeekWork" class="element__prev-time cards-top">Last    Week - 36hrs
+               
+          </div>
+    </div>
+  </div>
+
+
+  <!-- Play -->
+  <div class="play main element1">
+    <div class="element__container">
+      Play 
+        <div data-activity="play" class="current element__time">
+          <div class="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+         <div id="play" class="hours">10hrs</div>
+          <div class="element__prev-time cards-top" id="lastWeekPlay">Last    Week - 8hrs
+          </div>
+    </div>
+  </div>
+  <!-- Study -->
+  <div class="study main element2">
+    <div class="element__container">
+      Study 
+        <div  data-activity="study" class="current element__time">
+          <div class="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+         <div id="study" class="hours">4hrs</div>
+          <div class="element__prev-time cards-top" id="lastWeekStudy">Last    Week - 7hrs
+               
+          </div>
+    </div>
+  </div>
+  <!-- Exercise -->
+  <div class="exercise main element3">
+    <div class="element__container">
+      Exercise 
+        <div  data-activity="exercise" class="current element__time">
+          <div class="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+         <div class="hours" id="exercise">4hrs</div>
+          <div class="element__prev-time cards-bottom" id="lastWeekExercise">Last    Week - 5hrs
+          </div>
+    </div>
+  </div>
+  <!-- Social -->
+  <div class="social main element4">
+    <div class="element__container">
+      Social 
+        <div  data-activity="social" class="current element__time">
+          <div class="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+         <div id="social" class="hours">5hrs</div>
+          <div class="element__prev-time cards-bottom" id="lastWeekSocial">Last    Week - 10hrs
+          </div>
+    </div>
+  </div>
+  <!-- Self Care -->
+  <div class="self-care main element5">
+    <div class="element__container">
+      Self Care
+        <div  data-activity="self-care" class="current element__time">
+          <div class="points">
+            <div class="point"></div>
+            <div class="point"></div>
+            <div class="point"></div>
+          </div>
+        </div>
+         <div class="hours" id="selfCare">2hrs</div>
+          <div class="element__prev-time cards-bottom" id="lastWeekSelfCare">Last    Week - 2hrs    
+          </div>
+    </div>
+  </div>
+
+  
+</div>
+
+  
+  
+  
+  <script src="index.js"></script>
+</body>
+</html>
