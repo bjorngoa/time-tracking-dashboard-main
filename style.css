@@ -24,9 +24,9 @@ button {
     grid-template: repeat(8, auto) / repeat(1, 1fr);
     grid-gap: 1rem;
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%);
 }
 
 
@@ -193,6 +193,10 @@ button:hover {
     .container {
         grid-template-columns: repeat(4, 255px);
         grid-template-rows: repeat(2, 1fr);
+        top: 25%;
+        left: 50%;
+        margin-top: 20px;
+        transform: translate(-50%)
     }
     .card {
         grid-row: span 2;
@@ -229,7 +233,7 @@ button:hover {
     
 }
 
-@media only screen and (min-width: 1080px) {
+ @media only screen and (min-width: 1080px) {
     .footer {
         position: absolute;
         bottom: 10px;
@@ -240,4 +244,4 @@ button:hover {
         margin-bottom: 10px;
         display: initial;
     }
-}
+} 
