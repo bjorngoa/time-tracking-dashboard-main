@@ -180,13 +180,7 @@ button:hover {
     background-color: #fff;
 }
 .footer {
-    position: absolute;
-    bottom: 10px;
-    width: 100%;
-    bottom: 0;
-    margin-top: 10px;
-    background-color: hsl(246, 80%, 20%);
-    margin-bottom: 10px;
+    display: none;
 }
 
 /* Desktop media query */
@@ -229,5 +223,14 @@ button:hover {
         position: absolute;
         bottom: 10px;
         margin-left: 30px;
+    }
+    .footer {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        bottom: 0;
+        margin-top: 10px;
+        background-color: hsl(246, 80%, 20%);
+        margin-bottom: 10px;
     }
 }
